@@ -174,5 +174,70 @@ def build_splits_domain_disentangle(opt):
 
     return train_loader_1, train_loader_2, val_loader_1, val_loader_2, test_loader
 
+class PACSDatasetClipDisentangle(Dataset):
+    def __init__(self, examples, transform):
+        self.examples = examples
+        self.transform = transform
+
+    def __len__(self):
+        return len(self.examples)
+    
+    def __getitem__(self, index):
+        img_path, y, domain = self.examples[index]
+        x = self.transform(Image.open(img_path).convert('RGB'))
+        return x, y, domain
+
 def build_splits_clip_disentangle(opt):
-    raise NotImplementedError('[TODO] Implement build_splits_clip_disentangle') #TODO
+    source_domain = 'art_painting'
+    target_domain = opt['target_domain']
+
+    source_examples = read_lines(opt['data_path'], source_domain)
+    target_examples = read_lines(opt['data_path'], target_domain)
+
+    train_examples_source = []
+    train_examples_for_dclf = []
+    test_examples = []
+
+    for category, example_list in source_examples.items():
+        for example in example_list:
+            train_examples_source.append([example, category, 0])
+    
+    for category, example_list in target_examples.items():
+        for example in example_list:
+            train_examples_for_dclf.append([example, category, 1])
+            test_examples.append([example, category, 1])
+
+    # Train and Val from source -> both domain encoder + domain clf and category encoder + category clf
+    train_examples_1 = train_examples_source[0:round(0.8*len(train_examples_source))]
+    val_examples_both = train_examples_source[round(0.8*len(train_examples_source)):]
+
+    # Train and Val from domain -> only domain encoder + domain clf
+    train_examples_2 = train_examples_for_dclf[0:round(0.8*len(train_examples_for_dclf))]
+    val_examples_dclf = train_examples_for_dclf[round(0.8*len(train_examples_for_dclf)):]
+
+    # Transforms
+    normalize = T.Normalize([0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]) # ResNet18 - ImageNet Normalization
+
+    train_transform = T.Compose([
+        T.Resize(256),
+        T.RandAugment(3, 15),
+        T.CenterCrop(224),
+        T.ToTensor(),
+        normalize
+    ])
+
+    eval_transform = T.Compose([
+        T.Resize(256),
+        T.CenterCrop(224),
+        T.ToTensor(),
+        normalize
+    ])
+
+    # Dataloaders
+    train_loader_1 = DataLoader(PACSDatasetDomainDisentangle(train_examples_1, train_transform), batch_size=opt['batch_size'], num_workers=opt['num_workers'], shuffle=True) 
+    train_loader_2 = DataLoader(PACSDatasetDomainDisentangle(train_examples_2, train_transform), batch_size=opt['batch_size'], num_workers=opt['num_workers'], shuffle=True)
+    val_loader_1 = DataLoader(PACSDatasetDomainDisentangle(val_examples_both, eval_transform), batch_size=opt['batch_size'], num_workers=opt['num_workers'], shuffle=False)
+    val_loader_2 = DataLoader(PACSDatasetDomainDisentangle(val_examples_dclf, eval_transform), batch_size=opt['batch_size'], num_workers=opt['num_workers'], shuffle=False)
+    test_loader = DataLoader(PACSDatasetDomainDisentangle(test_examples, eval_transform), batch_size=opt['batch_size'], num_workers=opt['num_workers'], shuffle=False)
+
+    return train_loader_1, train_loader_2, val_loader_1, val_loader_2, test_loader

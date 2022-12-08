@@ -92,16 +92,11 @@ class DomainDisentangleModel(nn.Module):
             nn.Linear(256, 512)
         )
 
-    def forward(self, x, label):
+    def forward(self, x, label, experiment=None):
         # Feature extraction
         features = self.feature_extractor(x)
         # Disentanglement process
-        if label == 0:
-            # Training with source
-            domain_specific = self.domain_encoder(features)
-            category_specific = self.category_encoder(features)
-        elif label == 1:
-            # Training with target
+        if label != 2:
             domain_specific = self.domain_encoder(features)
             category_specific = self.category_encoder(features)
         else:
@@ -128,10 +123,16 @@ class DomainDisentangleModel(nn.Module):
         # Return objects
         if label == 0:
             # Training with source
-            return reconstructor, features, category_class_ce, domain_class_de, category_class_de, domain_class_ce
+            if experiment == None:
+                return reconstructor, features, category_class_ce, domain_class_de, category_class_de, domain_class_ce
+            else:
+                return reconstructor, features, category_class_ce, domain_class_de, category_class_de, domain_class_ce, domain_specific
         elif label == 1:
             # Training with target
-            return reconstructor, features, domain_class_de, domain_class_ce
+            if experiment == None:
+                return reconstructor, features, domain_class_de, domain_class_ce
+            else:
+                return reconstructor, features, domain_class_de, domain_class_ce, domain_specific
         else:
             # Testing
             return category_class

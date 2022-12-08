@@ -16,8 +16,8 @@ def setup_experiment(opt):
         
     elif opt['experiment'] == 'domain_disentangle':
         experiment = DomainDisentangleExperiment(opt)
-        train_loader_both, train_loader_dcfl, validation_loader_both, validation_loader_dclf, test_loader = build_splits_domain_disentangle(opt)
-        return experiment, train_loader_both, train_loader_dcfl, validation_loader_both, validation_loader_dclf, test_loader
+        train_loader_source, train_loader_target, validation_loader_source, validation_loader_target, test_loader = build_splits_domain_disentangle(opt)
+        return experiment, train_loader_source, train_loader_target, validation_loader_source, validation_loader_target, test_loader
 
     elif opt['experiment'] == 'clip_disentangle':
         experiment = CLIPDisentangleExperiment(opt)
@@ -32,7 +32,9 @@ def main(opt):
     if opt['experiment'] == 'baseline':
         experiment, train_loader, validation_loader, test_loader = setup_experiment(opt)
     elif opt['experiment'] == 'domain_disentangle':
-        experiment, train_loader_both, train_loader_dclf, validation_loader_both, validation_loader_dclf, test_loader = setup_experiment(opt)
+        experiment, train_loader_source, train_loader_target, validation_loader_source, validation_loader_target, test_loader = setup_experiment(opt)
+    elif opt['experiment'] == 'clip_disentangle':
+        experiment, train_loader, validation_loader, test_loader = setup_experiment(opt)
 
     if not opt['test']: # Skip training if '--test' flag is set
         iteration = 0
@@ -66,11 +68,17 @@ def main(opt):
                     iteration += 1
                     if iteration > opt['max_iterations']:
                         break
+            # Test
+            experiment.load_checkpoint(f'{opt["output_path"]}/best_checkpoint.pth')
+            test_accuracy, _ = experiment.validate(test_loader)
+            logging.info(f'[TEST] Accuracy: {(100 * test_accuracy):.2f}')
+            print(f'[TEST] Accuracy: {(100 * test_accuracy):.2f}')
+            
         elif opt['experiment'] == 'domain_disentangle':
             print('Train loop with source')
             # Train loop with source
             while iteration < opt['max_iterations']:
-                for data in train_loader_both:
+                for data in train_loader_source:
 
                     total_train_loss += experiment.train_iteration(data, label=0)
 
@@ -79,7 +87,7 @@ def main(opt):
                     
                     if iteration % opt['validate_every'] == 0:
                         # Run validation
-                        val_accuracy, val_loss = experiment.validate(validation_loader_both, label=0)
+                        val_accuracy, val_loss = experiment.validate(validation_loader_source, label=0)
                         print(f'[VAL - {iteration}] Loss: {val_loss} | Accuracy: {(100 * val_accuracy):.2f}')
                         if val_accuracy > best_accuracy:
                             experiment.save_checkpoint(f'{opt["output_path"]}/best_checkpoint.pth', iteration, best_accuracy, total_train_loss)
@@ -94,7 +102,7 @@ def main(opt):
             print('Train loop with target')
             # Train loop with target
             while iteration < opt['max_iterations']:
-                for data in train_loader_dclf:
+                for data in train_loader_target:
 
                     total_train_loss += experiment.train_iteration(data, label=1)
 
@@ -103,7 +111,7 @@ def main(opt):
                     
                     if iteration % opt['validate_every'] == 0:
                         # Run validation
-                        val_accuracy, val_loss = experiment.validate(validation_loader_dclf, label=1)
+                        val_accuracy, val_loss = experiment.validate(validation_loader_target, label=1)
                         print(f'[VAL - {iteration}] Loss: {val_loss} | Accuracy: {(100 * val_accuracy):.2f}')
                         if val_accuracy > best_accuracy:
                             experiment.save_checkpoint(f'{opt["output_path"]}/best_checkpoint.pth', iteration, best_accuracy, total_train_loss)
@@ -112,12 +120,63 @@ def main(opt):
                     iteration += 1
                     if iteration > opt['max_iterations']:
                         break
+            # Test
+            experiment.load_checkpoint(f'{opt["output_path"]}/best_checkpoint.pth')
+            test_accuracy, _ = experiment.validate(test_loader, label=2)
+            logging.info(f'[TEST] Accuracy: {(100 * test_accuracy):.2f}')
+            print(f'[TEST] Accuracy: {(100 * test_accuracy):.2f}')
 
-    # Test
-    experiment.load_checkpoint(f'{opt["output_path"]}/best_checkpoint.pth')
-    test_accuracy, _ = experiment.validate(test_loader, label=2)
-    logging.info(f'[TEST] Accuracy: {(100 * test_accuracy):.2f}')
-    print(f'[TEST] Accuracy: {(100 * test_accuracy):.2f}')
+        elif opt['experiment'] == 'clip_disentangle':
+            print('Train loop with source')
+            # Train loop with source
+            while iteration < opt['max_iterations']:
+                for data in train_loader_source:
+
+                    total_train_loss += experiment.train_iteration(data, label=0)
+
+                    if iteration % opt['print_every'] == 0:
+                        print(f'[TRAIN - {iteration}] Loss: {total_train_loss / (iteration + 1)}')
+                    
+                    if iteration % opt['validate_every'] == 0:
+                        # Run validation
+                        val_accuracy, val_loss = experiment.validate(validation_loader_source, label=0)
+                        print(f'[VAL - {iteration}] Loss: {val_loss} | Accuracy: {(100 * val_accuracy):.2f}')
+                        if val_accuracy > best_accuracy:
+                            experiment.save_checkpoint(f'{opt["output_path"]}/best_checkpoint.pth', iteration, best_accuracy, total_train_loss)
+                        experiment.save_checkpoint(f'{opt["output_path"]}/last_checkpoint.pth', iteration, best_accuracy, total_train_loss)
+
+                    iteration += 1
+                    if iteration > opt['max_iterations']:
+                        break
+            iteration = 0
+            best_accuracy = 0
+            total_train_loss = 0
+            print('Train loop with target')
+            # Train loop with target
+            while iteration < opt['max_iterations']:
+                for data in train_loader_target:
+
+                    total_train_loss += experiment.train_iteration(data, label=1)
+
+                    if iteration % opt['print_every'] == 0:
+                        print(f'[TRAIN - {iteration}] Loss: {total_train_loss / (iteration + 1)}')
+                    
+                    if iteration % opt['validate_every'] == 0:
+                        # Run validation
+                        val_accuracy, val_loss = experiment.validate(validation_loader_target, label=1)
+                        print(f'[VAL - {iteration}] Loss: {val_loss} | Accuracy: {(100 * val_accuracy):.2f}')
+                        if val_accuracy > best_accuracy:
+                            experiment.save_checkpoint(f'{opt["output_path"]}/best_checkpoint.pth', iteration, best_accuracy, total_train_loss)
+                        experiment.save_checkpoint(f'{opt["output_path"]}/last_checkpoint.pth', iteration, best_accuracy, total_train_loss)
+
+                    iteration += 1
+                    if iteration > opt['max_iterations']:
+                        break
+            # Test
+            experiment.load_checkpoint(f'{opt["output_path"]}/best_checkpoint.pth')
+            test_accuracy, _ = experiment.validate(test_loader, label=2)
+            logging.info(f'[TEST] Accuracy: {(100 * test_accuracy):.2f}')
+            print(f'[TEST] Accuracy: {(100 * test_accuracy):.2f}')
 
 if __name__ == '__main__':
     
