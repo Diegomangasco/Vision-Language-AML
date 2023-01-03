@@ -56,7 +56,7 @@ At this point you should be able to run and edit the base code provided.
 ## Baseline Results (see point 1. of the project)
 |          | Art Painting &#8594; Cartoon | Art Painting &#8594; Sketch | Art Painting &#8594; Photo | Average |
 | :------: | :--------------------------: | :-------------------------: | :------------------------: | :-----: |
-| Baseline |            52.30             |             45.48           |            78.32           |  58.70  |
+| Baseline |            63.91             |             61.54           |            91.86           |  72.44  |
 
 ## CLIP Text Encoder
 The following code fragment should provide an hint on how to use CLIP's text encoder.
@@ -69,7 +69,7 @@ import clip
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
 clip_model, _ = clip.load('ViT-B/32', device='cpu') # load it first to CPU to ensure you're using fp32 precision.
-clip_model.to(device)
+clip_model = clip_model.to(device)
 clip_model.eval()
 for param in clip_model.parameters():
     param.requires_grad = False

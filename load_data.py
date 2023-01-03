@@ -71,7 +71,7 @@ def build_splits_baseline(opt):
     for category_idx, examples_list in source_examples.items():
         split_idx = round(source_category_ratios[category_idx] * val_split_length)
         for i, example in enumerate(examples_list):
-            if i < split_idx:
+            if i > split_idx:
                 train_examples.append([example, category_idx]) # each pair is [path_to_img, class_label]
             else:
                 val_examples.append([example, category_idx]) # each pair is [path_to_img, class_label]
