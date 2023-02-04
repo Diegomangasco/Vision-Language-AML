@@ -1,0 +1,1388 @@
+[
+    {
+        "image_name": "cartoon/dog/pic_437.jpg",
+        "descriptions": [
+            "low-level, delineated details", 
+            "precise lines", 
+            "high saturation", 
+            "yes, yellow and brown shades", 
+            "single color, white", 
+            "single instance", 
+            "without text", 
+            "yes, cartoon", 
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/giraffe/pic_090.jpg", 
+        "descriptions": [
+            "low-level, delineated details", 
+            "precise lines", 
+            "high saturation", 
+            "yes, yellow dominance with many brown spots", 
+            "single color, white", 
+            "single instance", 
+            "without text", 
+            "yes, cartoon", 
+            "unrealistic"
+        ]
+    }, 
+    {
+        "image_name": "cartoon/dog/pic_059.jpg", 
+        "descriptions": [
+            "low-level, delineated details", 
+            "precise lines", 
+            "high saturation", 
+            "yes, brown and black shades", 
+            "single color, white", 
+            "single instance", 
+            "without text", 
+            "yes, cartoon", 
+            "unrealistic"
+        ]
+    }, 
+    {
+        "image_name": "cartoon/dog/pic_230.jpg", 
+        "descriptions": [
+            "mid-level, grainy details", 
+            "precise lines", 
+            "high saturation", 
+            "yes, colorful", 
+            "single color, white", 
+            "single instance", 
+            "not relevant", 
+            "yes, cartoon", 
+            "unrealistic"
+        ]
+    }, 
+    {
+        "image_name": "cartoon/elephant/pic_165.jpg", 
+        "descriptions": [
+            "low-level, delineated details", 
+            "precise lines", 
+            "high saturation", 
+            "yes, greyscale", 
+            "white with a blue line", 
+            "single instance", 
+            "not relevant", 
+            "yes, cartoon", 
+            "unrealistic"
+        ]
+    }, 
+    {
+        "image_name": "cartoon/giraffe/pic_051.jpg", 
+        "descriptions": [
+            "low-level, grainy details", 
+            "precise lines", 
+            "high saturation", 
+            "yes, yellow and brown shades", 
+            "white with a tree", 
+            "single instance", 
+            "without text", 
+            "yes, cartoon", 
+            "unrealistic"
+        ]
+    }, 
+    {
+        "image_name": "cartoon/dog/pic_071.jpg", 
+        "descriptions": [
+            "mid-level, grainy details", 
+            "precise lines", 
+            "high saturation", 
+            "yes, red and orange shades", 
+            "single color, white", 
+            "single instance", 
+            "without text", 
+            "yes, cartoon", 
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_033.jpg",
+        "descriptions": [
+            "low-level, grainy details",
+            "precise lines",
+            "high saturation",
+            "yes, colorful",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/giraffe/pic_344.jpg",
+        "descriptions": [
+            "low-level, grainy details", 
+            "precise lines", 
+            "high saturation", 
+            "yes, yellow dominance with some brown spots and a pink touch", 
+            "white with some black shades and lines", 
+            "single instance", 
+            "without text", 
+            "yes, cartoon", 
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/guitar/pic_040.jpg",
+        "descriptions": [
+            "high-level, grainy details",
+            "neat strokes",
+            "high saturation",
+            "yes, red brown and white shades",
+            "single color, white",
+            "yes, 3 instances of different colors",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_376.jpg", 
+        "descriptions": [
+            "mid-level, delineated details", 
+            "precise lines", 
+            "high saturation", 
+            "yes, greyscale and pink shades or purple and pink shades", 
+            "single color, white", 
+            "yes, 2 instances of different colors", 
+            "without text", 
+            "yes, cartoon", 
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_189.jpg", 
+        "descriptions": [
+            "low-level, delineated details", 
+            "precise lines", 
+            "high saturation", 
+            "yes, greyscale", 
+            "single color, white", 
+            "single instance", 
+            "without text", 
+            "yes, cartoon", 
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_319.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, yellow brown pink and black shades",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/house/pic_109.jpg",
+        "descriptions": [
+            "high-level, grainy details",
+            "neat strokes",
+            "high saturation",
+            "yes, brown yellow and green shades",
+            "white with a blue line",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/giraffe/pic_175.jpg",
+        "descriptions": [
+            "high-level, grainy details",
+            "precise lines",
+            "high saturation",
+            "yes, yellow dominance with some brown spots and a pink touch",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/horse/pic_113.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, brown dominance",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/horse/pic_128.jpg",
+        "descriptions": [
+            "low-level, grainy details",
+            "precise lines",
+            "high saturation",
+            "yes, brown dominance",
+            "white with a blue line and some black lines",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/house/pic_069.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, colorful",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_333.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines with some brush strokes",
+            "high saturation",
+            "yes, greyscale with a pink touch",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "realistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_178.jpg",
+        "descriptions": [
+            "mid-level, delineated details", 
+            "precise lines", 
+            "high saturation", 
+            "yes, greyscale", 
+            "single color, white", 
+            "single instance", 
+            "not relevant", 
+            "yes, cartoon", 
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_020.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, colorful",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_037.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, brown shades",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_447.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, very colorful",
+            "single color, white",
+            "two instances",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_250.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, pretty colorful with pink and grey dominance",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/house/pic_276.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, very colorful with orange yellow and turquoise",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/house/pic_243.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, red, orange and brown shades",
+            "colorful landscape with the sun, clouds, streets and trees",
+            "two instances",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_504.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, pink dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_398.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, light blue and pink dominance",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_418.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, white orange black and red shades",
+            "colorful with brown and ligth blue shades",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_304.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, light blue ligth brown dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_186.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, colorful with grey and purple dominance",
+            "colorful, with ligth green and white dominance",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_145.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, orange and red dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/guitar/pic_028.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, brown dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/giraffe/pic_016.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, yellow and many brown spots",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/house/pic_023.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, very colorful",
+            "colorful garden and sky",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_117.jpg",
+        "descriptions": [
+            "high-level, grainy details",
+            "precise lines with some brush strokes",
+            "high saturation",
+            "yes, pretty colorful with purple, blue and grey dominance",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/house/pic_079.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, pink, orange and brown shades",
+            "colorful landscape with the sun, clouds, fences and trees",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_325.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, white and red dominance with some black spots",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_339.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, purple dominance",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/giraffe/pic_028.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, orange and many brown spots",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/house/pic_067.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, red and yellow shades",
+            "green trees",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_338.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, very colorful",
+            "single color, azure",
+            "two instances",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_218.jpg",
+        "descriptions": [
+            "low-level, grainy details",
+            "precise lines",
+            "high saturation",
+            "yes, brown and black dominance",
+            "colorful sky with clouds",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/horse/pic_059.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, brown dominance",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_038.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, grey dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/horse/pic_332.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise blue lines",
+            "high saturation",
+            "yes, white dominance with some yellow shades",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_120.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, brown dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/giraffe/pic_272.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, purple dominance",
+            "single color, white",
+            "four instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_277.jpg",
+        "descriptions": [
+            "low-level, grainy details",
+            "precise lines",
+            "high saturation",
+            "yes, pretty colorful",
+            "single color, white",
+            "four instances",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_375.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, bordeaux dominance",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_428.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, grey and black shades",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_019.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, pretty colorful",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_233.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, beige dominance with black spots",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_230.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, light blue and pink dominance",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_246.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, very colorful",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_386.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, pretty colorful",
+            "brown and white comics background",
+            "five instances",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_224.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, dark purple and pink dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/horse/pic_163.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, brown dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/giraffe/pic_035.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, orange dominance with brown spots",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/horse/pic_227.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, grey and black shades",
+            "yellow, orange and white background",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/house/pic_328.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "neat brush strokes",
+            "high saturation",
+            "yes, yellow, blue and black shades",
+            "very colorful garden and sky",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_231.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, red and blue dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_371.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, brown dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_368.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, greyscale",
+            "single color, white",
+            "two instances",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_049.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise white lines",
+            "high saturation",
+            "yes, black and red dominance",
+            "single color, azure",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_055.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, blue and brown dominance",
+            "white, green and yellow",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_060.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, orange dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/horse/pic_161.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, brown dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/house/pic_099.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "neat brush strokes",
+            "high saturation",
+            "yes, purple and brown dominance",
+            "blue sky and green garden",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/giraffe/pic_106.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, orange dominance with brown spots",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_015.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, brown dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/house/pic_043.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "neat brush strokes",
+            "high saturation",
+            "white, blue and green",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_048.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "low saturation",
+            "yes, beige and red",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_181.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "neat brush strokes",
+            "high saturation",
+            "yes, brown dominance",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_095.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, beige dominance",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/giraffe/pic_361.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, yellow and many brown spots",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_340.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "neat brush strokes",
+            "low saturation",
+            "yes, orange and brown dominance",
+            "single color, azure",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/horse/pic_023.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "low saturation",
+            "yes, brown dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_169.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, orange dominance",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_008.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, beige and brown dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_114.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, blue dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_090.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "neat brush strokes",
+            "high saturation",
+            "yes, brown and red dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_172.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "grey, yellow and purple",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/giraffe/pic_117.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, yellow and many brown spots",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_030.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise brown lines",
+            "mid saturation",
+            "yes, brown dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/house/pic_048.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "blue and yellow",
+            "colorful garden and a yellow sky",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/guitar/pic_088.jpg",
+        "descriptions": [
+            "high-level, grainy details",
+            "precise lines",
+            "mid saturation",
+            "yes, beige and brown dominance",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "realistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_275.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "mid saturation",
+            "yes, blue dominance",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_212.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "neat brush strokes",
+            "high saturation",
+            "yes, brown dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/horse/pic_181.jpg",
+        "descriptions": [
+            "low-level, grainy details",
+            "precise brown lines",
+            "mid saturation",
+            "yes, brown dominance",
+            "single color, white",
+            "six instances",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_171.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, brown dominance",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/dog/pic_366.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "yes, orange dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_457.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "mid saturation",
+            "black and white",
+            "single color, white",
+            "four instances",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_456.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "low saturation",
+            "light blue and grey",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_191.jpg",
+        "descriptions": [
+            "mid-level, delineated details",
+            "precise lines",
+            "low saturation",
+            "grey and brown",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/house/pic_152.jpg",
+        "descriptions": [
+            "mid-level, grainy details",
+            "neat brush strokes",
+            "high saturation",
+            "yes, pink and yellow shades",
+            "green garden and blue sky",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/horse/pic_283.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "precise lines",
+            "mid saturation",
+            "yes, brown dominance",
+            "single color, white",
+            "single instance",
+            "without text",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/person/pic_091.jpg",
+        "descriptions": [
+            "low-level, delineated details",
+            "neat brush strokes",
+            "mid saturation",
+            "ligth blue and blue",
+            "single color, white",
+            "single color, white",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    },
+    {
+        "image_name": "cartoon/elephant/pic_191.jpg",
+        "descriptions": [
+            "high-level, delineated details",
+            "precise lines",
+            "high saturation",
+            "greyscale",
+            "single color, white",
+            "single instance",
+            "not relevant",
+            "yes, cartoon",
+            "unrealistic"
+        ]
+    }
+]

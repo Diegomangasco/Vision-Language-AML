@@ -1,0 +1,700 @@
+[
+{
+    "image_name": "photo/person/253_0148.jpg",
+    "descriptions": [
+        "high level details",
+        "definite, precise lines",
+        "high saturation, light reflection",
+        "colorful",
+        "single instance",
+        "without text",
+        "with texture",
+        "with perspective",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/person/253_0386.jpg",
+    "descriptions": [
+        "high level details",
+        "definite, smooth",
+        "medium saturation, light reflection",
+        "colorful",
+        "single instances",
+        "without relevant text",
+        "without texture",
+        "with perspective",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/person/253_0047.jpg",
+    "descriptions": [
+        "high level details",
+        "definite, smooth",
+        "high saturation, light reflection",
+        "colorful",
+        "single instances",
+        "without text",
+        "with texture",
+        "with perspective",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/person/253_0137.jpg",
+    "descriptions": [
+        "high level details",
+        "definite, precise lines",
+        "medium saturation, light reflection",
+        "single instance",
+        "colorful",
+        "without text",
+        "without texture",
+        "without perspective",
+        "realistic",
+        "white shades"
+    ]
+},
+{
+    "image_name": "photo/person/253_0422.jpg",
+    "descriptions": [
+        "high level details",
+        "no precise lines",
+        "high saturation, light reflection",
+        "single instance",
+        "colorful",
+        "without text",
+        "with texture",
+        "without perspective",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/person/253_0248.jpg",
+    "descriptions": [
+        "high level details",
+        "precise lines",
+        "high saturation, light reflection",
+        "single instance",
+        "colorful",
+        "without relevant text",
+        "with texture",
+        "with perspective",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/person/253_0218.jpg",
+    "descriptions": [
+        "high level details",
+        "precise lines",
+        "high saturation, light reflection",
+        "single instance",
+        "colorful",
+        "without text",
+        "with texture",
+        "with perspective",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/person/253_0087.jpg",
+    "descriptions": [
+        "high level details",
+        "precise lines",
+        "low saturation, light reflection",
+        "single instance",
+        "colorful",
+        "without relevant text",
+        "without texture",
+        "with perspective",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/person/253_0242.jpg",
+    "descriptions": [
+        "high level details",
+        "medium precise lines",
+        "high saturation, light reflection",
+        "single instance",
+        "colorful",
+        "without text",
+        "with texture",
+        "with perspective",
+        "unrealistic"
+    ]
+},
+{
+    "image_name": "photo/person/253_0270.jpg",
+    "descriptions": [
+        "high level details",
+        "precise lines",
+        "medium saturation, light reflection",
+        "single instance",
+        "colorful",
+        "without relevant text",
+        "without texture",
+        "without perspective",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/person/253_0276.jpg",
+    "descriptions": [
+        "high level details",
+        "precise lines",
+        "high saturation, light reflection",
+        "single instance",
+        "colorful",
+        "without text",
+        "without texture",
+        "with perspective",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/person/253_0215.jpg",
+    "descriptions": [
+        "high level details",
+        "imprecise lines",
+        "high saturation, light reflection",
+        "colorful",
+        "single instance",
+        "without text",
+        "white shade",
+        "without perspective",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/person/253_0428.jpg",
+    "descriptions": [
+        "high level details",
+        "precise lines",
+        "high saturation, light reflection",
+        "colorful",
+        "single instance",
+        "without text",
+        "with texture",
+        "with perspective",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/person/253_0322.jpg",
+    "descriptions": [
+        "high level details",
+        "precise lines",
+        "high saturation, light reflection",
+        "colorful",
+        "single instance",
+        "white shade",
+        "without relevant text",
+        "without texture",
+        "with low perspective",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/person/253_0044.jpg",
+    "descriptions": [
+        "low level details",
+        "precise lines",
+        "high saturation, light reflection",
+        "colorful",
+        "single instance",
+        "without text",
+        "with texture",
+        "with low perspective",
+        "unrealistic"
+    ]
+},
+{
+    "image_name": "photo/person/253_0016.jpg",
+    "descriptions": [
+        "low level details",
+        "imprecise lines",
+        "low saturation, no light reflection",
+        "colorful",
+        "single instance",
+        "without text",
+        "with texture",
+        "with perspective",
+        "unrealistic"
+    ]
+},
+{
+    "image_name": "photo/house/pic_204.jpg",
+    "descriptions": [
+        "high level details",
+        "precise lines",
+        "high saturation, smooth",
+        "white shade",
+        "single instance",
+        "without text",
+        "without texture",
+        "with low perspective",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/house/pic_149.jpg",
+    "descriptions": [
+        "high level details",
+        "precise lines",
+        "low saturation, no light reflection",
+        "colorful",
+        "without text",
+        "without texture",
+        "with low perspective",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/house/pic_145.jpg",
+    "descriptions": [
+        "high level details",
+        "precise lines",
+        "low saturation, no light reflection",
+        "colorful",
+        "lot of edges",
+        "without text",
+        "without texture",
+        "with perspective",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/house/pic_220.jpg",
+    "descriptions": [
+        "high level details",
+        "white shade",
+        "precise lines",
+        "high saturation, light reflection",
+        "colorful",
+        "lot of edges",
+        "without text",
+        "with perspective",
+        "with low texture",
+        "not a lot realistic"
+    ]
+},
+{
+    "image_name": "photo/house/pic_011.jpg",
+    "descriptions": [
+        "high level details",
+        "with perspective",
+        "precise lines",
+        "low saturation, no light reflection",
+        "colorful",
+        "without text",
+        "without texture",
+        "lot of edges",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/house/pic_263.jpg",
+    "descriptions": [
+        "low level details",
+        "with low perspective",
+        "few precise line",
+        "low saturation, no light reflection",
+        "colorful",
+        "without text",
+        "without texture",
+        "green, grass",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/house/pic_184.jpg",
+    "descriptions": [
+        "high level details",
+        "single instance",
+        "definite, precise lines",
+        "high saturation, no light reflection",
+        "colorful",
+        "without text",
+        "without texture",
+        "green, yellow",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/house/pic_059.jpg",
+    "descriptions": [
+        "high level details",
+        "low saturation, light reflection",
+        "lot of edges",
+        "green, grass",
+        "single instance",
+        "without text",
+        "without texture",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/house/pic_008.jpg",
+    "descriptions": [
+        "high level details",
+        "lot of edges",
+        "grey, green",
+        "white",
+        "single instance",
+        "without text",
+        "without texture",
+        "with perspective",
+        "realistic",
+        "low saturation, no light reflection"
+    ]
+},
+{
+    "image_name": "photo/house/pic_142.jpg",
+    "descriptions": [
+        "low level details",
+        "shadows",
+        "unrealistic",
+        "single instance",
+        "tree, grass, white",
+        "with low texture",
+        "with perspective",
+        "without text",
+        "high saturation, light reflection"
+    ]
+},
+{
+    "image_name": "photo/house/pic_014.jpg",
+    "descriptions": [
+        "high level details",
+        "realistic",
+        "without text",
+        "without texture",
+        "single instance",
+        "white, grass",
+        "low saturation, no light reflection",
+        "with perspective"
+    ]
+},
+{
+    "image_name": "photo/house/pic_108.jpg",
+    "descriptions": [
+        "high level details",
+        "unrealistic",
+        "low saturation, light reflection",
+        "white, green, grass",
+        "windows",
+        "without text",
+        "without texture",
+        "with perspective"
+    ]
+},
+{
+    "image_name": "photo/elephant/n02503517_8137.jpg",
+    "descriptions": [
+        "low level details",
+        "colorful",
+        "gray, white",
+        "without perspective",
+        "without text",
+        "without texture",
+        "high saturation, light reflection",
+        "unrealistic"
+    ]
+},
+{
+    "image_name": "photo/elephant/n02503517_4221.jpg",
+    "descriptions": [
+        "high level details",
+        "gray",
+        "colorful",
+        "with low perspective",
+        "without texture",
+        "without text",
+        "shadows",
+        "realistic",
+        "high saturation, light reflection"
+    ]
+},
+{
+    "image_name": "photo/elephant/n02503517_6624.jpg",
+    "descriptions": [
+        "low level details",
+        "colorful",
+        "without text",
+        "without texture",
+        "with low perspective",
+        "gray",
+        "low level details",
+        "unrealistic",
+        "low saturation, no light reflection"
+    ]
+},
+{
+    "image_name": "photo/elephant/064_0061.jpg",
+    "descriptions": [
+        "low level details",
+        "low saturation, no light reflection",
+        "black, white",
+        "unrealistic",
+        "without text",
+        "without texture",
+        "with perspective",
+        "colorful"
+    ]
+},
+{
+    "image_name": "photo/elephant/064_0109.jpg",
+    "descriptions": [
+        "low level details",
+        "low saturation, no light reflection",
+        "unrealistic",
+        "water",
+        "without text",
+        "with low perspective",
+        "without texture",
+        "colorful"
+    ]
+},
+{
+    "image_name": "photo/guitar/063_0043.jpg",
+    "descriptions": [
+        "low level details",
+        "multiple instances",
+        "colorful",
+        "without relevant text",
+        "with low perspective",
+        "with low texture",
+        "realistic",
+        "white background"
+    ]
+},
+{
+    "image_name": "photo/guitar/063_0107.jpg",
+    "descriptions": [
+        "low level details",
+        "colorful",
+        "realistic",
+        "without relevant text",
+        "red, white",
+        "human",
+        "definite, smooth",
+        "with low perspective",
+        "with low texture"
+    ]
+},
+{
+    "image_name": "photo/guitar/n02676566_6560.jpg",
+    "descriptions": [
+        "mid-level deatils",
+        "high saturation, light reflection",
+        "colorful",
+        "realistic",
+        "without relevant text",
+        "without texture",
+        "with perspective",
+        "few precise line",
+        "single instance"
+    ]
+},
+{
+    "image_name": "photo/guitar/n02676566_9451.jpg",
+    "descriptions": [
+        "mid-level details",
+        "white background",
+        "colorful",
+        "single instance",
+        "realistic",
+        "without perspective",
+        "without text",
+        "without texture",
+        "high saturation, light reflection"
+    ]
+},
+{
+    "image_name": "photo/giraffe/n02439033_10541.jpg",
+    "descriptions": [
+        "high level details",
+        "colorful",
+        "with perspective",
+        "low saturation, no light reflection",
+        "without text",
+        "without texture",
+        "realistic",
+        "single instance",
+        "smooth background"
+    ]
+},
+{
+    "image_name": "photo/giraffe/084_0053.jpg",
+    "descriptions": [
+        "mid-level deatils",
+        "realistic",
+        "mid saturation, light reflection",
+        "with low texture",
+        "with perspective",
+        "single instance",
+        "without text",
+        "yellow, green",
+        "colorful"
+    ]
+},
+{
+    "image_name": "photo/giraffe/084_0029.jpg",
+    "descriptions": [
+        "low level details",
+        "high saturation, no light reflection",
+        "multiple instances",
+        "colorful",
+        "smooth background",
+        "with perspective",
+        "with low texture",
+        "without text",
+        "orange"
+    ]
+},
+{
+    "image_name": "photo/giraffe/n02439033_10803.jpg",
+    "descriptions": [
+        "high level details",
+        "unrealistic",
+        "with perspective",
+        "without texture",
+        "without text",
+        "single instance",
+        "trees",
+        "mid saturation, no light reflection",
+        "colorful"
+
+    ]
+},
+{
+    "image_name": "photo/giraffe/n02439033_15005.jpg",
+    "descriptions": [
+        "mid-level deatils",
+        "high saturation, light reflection",
+        "colorful",
+        "realistic",
+        "without text",
+        "with low texture",
+        "with low perspective",
+        "single instance",
+        "trees"
+    ]
+},
+{
+    "image_name": "photo/giraffe/084_0014.jpg",
+    "descriptions": [
+        "mid-level deatils",
+        "mid saturation, light reflection",
+        "colorful",
+        "smooth",
+        "with low perspective",
+        "without texture",
+        "without text",
+        "single instance",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/horse/n02374451_503.jpg",
+    "descriptions": [
+        "high level details",
+        "single instance",
+        "with low perspective",
+        "without text",
+        "without texture",
+        "white",
+        "with human",
+        "colorful",
+        "realistic",
+        "low saturation, no light reflection"
+    ]
+},
+{
+    "image_name": "photo/horse/n02374451_597.jpg",
+    "descriptions": [
+        "high level details",
+        "colorful",
+        "definite, precise lines",
+        "single instance",
+        "with perspective",
+        "without text",
+        "without texture",
+        "realistic",
+        "low saturation, no light reflection"
+    ]
+},
+{
+    "image_name": "photo/horse/105_0089.jpg",
+    "descriptions": [
+        "high level details",
+        "colorful",
+        "single instance",
+        "with perspective",
+        "realistic",
+        "brown",
+        "without text",
+        "without texture",
+        "low saturation, no light reflection"
+    ]
+},
+{
+    "image_name": "photo/horse/105_0123.jpg",
+    "descriptions": [
+        "mid-level deatils",
+        "unrealistic",
+        "colorless",
+        "black, white",
+        "single instance",
+        "without relevant text",
+        "with low texture",
+        "without perspective"
+    ]
+},
+{
+    "image_name": "photo/horse/105_0210.jpg",
+    "descriptions": [
+        "mid-level deatils",
+        "colorful",
+        "without texture",
+        "without text",
+        "single instance",
+        "grid",
+        "with low perspective",
+        "brown",
+        "low saturation, light reflection",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/horse/n02374451_2743.jpg",
+    "descriptions": [
+        "low level details",
+        "colorful",
+        "in action",
+        "without text",
+        "with low texture",
+        "high saturation, light reflection",
+        "with perspective",
+        "single instance",
+        "realistic"
+    ]
+},
+{
+    "image_name": "photo/dog/n02109525_16346.jpg",
+    "descriptions": [
+        "mid-level deatils",
+        "high saturation, light reflection",
+        "single instance",
+        "white, brown",
+        "without text",
+        "without texture",
+        "with low perspective",
+        "realistic",
+        "colorful"
+    ]
+}
+]

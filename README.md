@@ -30,9 +30,10 @@ At this point you should be able to run and edit the base code provided.
 | `parse_args.py` | contains the function responsible for parsing each command line argument. |
 | `load_data.py` | contains the code to load data, build splits and dataloaders. |
 | `models/base_model.py` | contains the architectures used in the project. |
-| `experiments/baseline.py` | contains the code to reproduce the baseline experiment (see point 1. of the project) |
-| `experiments/domain_disentangle.py` | contains the skeleton code to implement the domain disentanglement experiment (see point 2. of the project) |
-| `experiments/clip_disentangle.py` | contains the skeleton code to implement the disentanglement experiment using CLIP (see point 4. of the project) |
+| `models/components.py` | contains the main elements used in the architectures. |
+| `experiments/baseline.py` | contains the code to reproduce the baseline experiment (see point 1 and point 5. of the project). |
+| `experiments/domain_disentangle.py` | contains the skeleton code to implement the domain disentanglement experiment (see point 2 and point 5. of the project). |
+| `experiments/clip_disentangle.py` | contains the skeleton code to implement the disentanglement experiment using CLIP (see point 4 and point 6. of the project). |
 
 ## Base Command Line Arguments
 | Argument &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  | Description |
@@ -52,11 +53,14 @@ At this point you should be able to run and edit the base code provided.
 | `--data_path` | points to the directory where the PACS dataset is stored. See above (Getting Started >>> Dataset) to properly setup this argument. |
 | `--cpu` | if set, the experiment will run on the CPU. |
 | `--test` | if set, the experiment will skip the training procedure and just run the evaluation on the test set. |
+| `--dom_gen` | if set to *True*, the experiment will run with Domain Generalization approach (see point 5. of the project) |
+| `--clip_pretrained` | if set to *False*, the experiment will run after a clip pre-training phase (see point 6. of the project) |
+| `--clip_epochs` | total number of iterations for the clip pre-training phase |
 
 ## Baseline Results (see point 1. of the project)
 |          | Art Painting &#8594; Cartoon | Art Painting &#8594; Sketch | Art Painting &#8594; Photo | Average |
 | :------: | :--------------------------: | :-------------------------: | :------------------------: | :-----: |
-| Baseline |            63.91             |             61.54           |            91.86           |  72.44  |
+| Baseline |            59.04             |             58.72           |            94.07           |  70.61  |
 
 ## CLIP Text Encoder
 The following code fragment should provide an hint on how to use CLIP's text encoder.
