@@ -45,7 +45,7 @@ class CLIPDisentangleExperiment:
         self.loss_txt = nn.CrossEntropyLoss()
 
         # Setup loss weights
-        self.weights = [3, 1.5, 0.5, 1] 
+        self.weights = [12, 0.08, 0.12, 1] 
         self.alpha_cat = 0.05
         self.alpha_dom = 0.003
 
