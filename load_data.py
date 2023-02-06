@@ -296,7 +296,10 @@ def getCategory(path):
 def pre_proc(vet):
     desc = ''
     for i, x in enumerate(vet):
-        desc = desc + DESCRIPTORS[i] + ": " + x + "; "   
+        if i < 11:
+            desc = desc + DESCRIPTORS[i] + ": " + x + "; " 
+        else:
+            desc = desc + x + "; "
     if len(desc) > 300:     # Truncate at 300
         desc = desc[0:300]    
     return desc
