@@ -55,8 +55,9 @@ class CLIPDisentangleExperiment:
 
     def convert_models_to_fp32(self): 
         for p in self.clip_model.parameters(): 
-            p.data = numpy.single(p.data) 
-            p.grad.data = numpy.single(p.grad.data)
+            p.data = p.data.float()
+            print(type(p.data)) 
+            p.grad.data = p.grad.data.float()
 
     def save_checkpoint(self, path, iteration, best_accuracy, total_train_loss):
         checkpoint = {}
