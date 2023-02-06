@@ -306,7 +306,7 @@ def readJSON(domains):
     return a dictionary with image paths as keys and image descriptions as values
     '''
 
-    with open("./Vision-Language-AML/data/LabeledPACS/descriptions.json") as file:
+    with open("./Vision-Language-AML/data/LabeledPACS/all_descriptions.json") as file:
         #print(file.read())
         data = json.loads(file.read())
 
