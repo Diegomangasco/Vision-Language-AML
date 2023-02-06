@@ -94,7 +94,7 @@ class CLIPDisentangleExperiment:
         
         logits_per_image, logits_per_text = self.clip_model(images, tokenized_desc)
 
-        ground_truth = torch.arange(len(images), dtype=torch.long, device=self.device)
+        ground_truth = torch.arange(len(images), dtype=torch.float32, device=self.device)
 
         total_loss = (self.loss_img(logits_per_image, ground_truth) + self.loss_txt(logits_per_text, ground_truth))/2
         total_loss.backward()
