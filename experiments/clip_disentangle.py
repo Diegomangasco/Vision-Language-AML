@@ -1,3 +1,4 @@
+import numpy
 import torch
 import torch.nn as nn
 import clip
@@ -54,8 +55,8 @@ class CLIPDisentangleExperiment:
 
     def convert_models_to_fp32(self): 
         for p in self.clip_model.parameters(): 
-            p.data = p.data.float() 
-            p.grad.data = p.grad.data.float()
+            p.data = numpy.single(p.data) 
+            p.grad.data = numpy.single(p.grad.data)
 
     def save_checkpoint(self, path, iteration, best_accuracy, total_train_loss):
         checkpoint = {}
@@ -94,7 +95,7 @@ class CLIPDisentangleExperiment:
         
         logits_per_image, logits_per_text = self.clip_model(images, tokenized_desc)
 
-        ground_truth = torch.arange(len(images), dtype=torch.float32, device=self.device)
+        ground_truth = torch.arange(len(images), dtype=torch.long, device=self.device)
 
         total_loss = (self.loss_img(logits_per_image, ground_truth) + self.loss_txt(logits_per_text, ground_truth))/2
         total_loss.backward()
@@ -103,7 +104,7 @@ class CLIPDisentangleExperiment:
         else : 
             self.convert_models_to_fp32()
             self.clip_optimizer.step()
-            clip.model.convert_weights(self.clip_model)
+            # clip.model.convert_weights(self.clip_model)
 
     def train_iteration(self, data, train): #train flag se false per validation/test
         x, desc, y, domain = data
